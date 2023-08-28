@@ -172,7 +172,7 @@ const newSvgContent2 = `
 <path d="M13 20 l5 5 l10 -10" stroke="#CEC6B3" stroke-width="4" fill="none" />`;
 
 document.getElementById("statusScript").innerHTML = "Visual Assets Loaded";
-document.getElementById('statusScript').style.color = '#576B68';
+document.getElementById('statusScript').style.color = '#90A423';
 svgElement2.innerHTML = newSvgContent2;
 
 const downloadName = "Audio_Soul_Project_(Deliver_Me_DUB)_EDIT.wav"

@@ -72,12 +72,20 @@ _\/\\\///////////____/\\\/////////\\\_\///////\\\/////___________________/\\\///
        <body id="body">
       <button id="albumExpand" onclick="toggle()">VIEW ALBUM ART</button>
 
-          <div  id="flipMe" style="display:flex; position:fixed; justify-content: center;align-items: center; width: 300px;height: 250px;opacity: 1;visibility: inherit;max-width: 90vw;max-height: 90vh;align-content: center;flex-direction: column;background-color:#DED8CB ;border-radius: 30px;border-width:10px !important; border-color: #576B68 !important; border: 1px solid;
-            border-color: #576B68; padding:0px; width:420px; height:420px; pointer-events:none;">
+          <div  id="flipMe" style="display:flex; position:fixed;
+          justify-content: center;align-items: center; width: 300px;height: 250px;
+          opacity: 1;visibility: inherit;max-width: 90vw;max-height:
+          90vh;align-content: center;flex-direction: column;
+          background-color:#000000 ;border-radius: 30px;
+          border-width:2px !important; border-color: #90A423  !important;
+          border: 1px solid;
+             padding:0px; width:420px; height:420px; pointer-events:none;">
+            
+            
             <div  id="statusGif" style="margin-top:0px; margin-right:10px; display:none;
             margin-top: auto;
             margin-bottom: auto;
-            position: absolute;">
+            position: absolute; ">
 
             <svg id="statusScrollCheck" width="200" height="200" viewBox="0 0 40 40">
               <circle cx="20" cy="20" r="18" stroke="#CEC6B3" stroke-width="4" fill="#576B68" />
@@ -87,7 +95,7 @@ _\/\\\///////////____/\\\/////////\\\_\///////\\\/////___________________/\\\///
 
           <img id="loaderGif" src="loader.gif" style="width:100px; margin-top:-40px;" alt="Example GIF">
 
-          <div id="statusTitle" style="color:#576B68; text-align:center; font-size: 31px; font-family: PoppinsBlk; margin-top:-10px;">UNLOCKED PLAYER</div>
+          <div id="statusTitle" style="color:#90A423 ; text-align:center; font-size: 31px; font-family: PoppinsBlk; margin-top:-10px;">UNLOCKED PLAYER</div>
           <!-- <div id="statusInfo" style="margin-top:15px; color:black; font-size: 17px; font-family: sans-serif;">"Deliver Me (Dub)"</div> -->
     
          <!-- <div id="statusInformation" style="margin-top:4px;  text-align:center; color:black; font-family: sans-serif; font-size: 11px;">Audio Soul Project</div> -->
@@ -263,7 +271,7 @@ EDIT THIS TRACK
     <circle cx="20" cy="20" r="18" stroke="#CEC6B3" stroke-width="4" fill="#576B68" />
     <path d="M13 20 l5 5 l10 -10" stroke="#CEC6B3" stroke-width="4" fill="none" />`;
     document.getElementById("statusScroll").innerHTML = "Player Code Loaded";
-    document.getElementById('statusScroll').style.color = '#576B68';
+    document.getElementById('statusScroll').style.color = '#90A423';
     svgElementCheck.innerHTML = newSvgContentCheck;
 
 
