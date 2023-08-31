@@ -381,6 +381,105 @@ setTimeout(startMessaging7, 45000);
         case 34:
         num.innerText = "Loop 34";
         break;
+        case 35:
+        num.innerText = "Loop 35";
+        break;
+        case 36:
+        num.innerText = "Loop 36";
+        break;
+        case 37:
+        num.innerText = "Loop 37";
+        break;
+        case 38:
+        num.innerText = "Loop 38";
+        break;
+        case 39:
+        num.innerText = "Loop 39";
+        break;
+        case 40:
+        num.innerText = "Loop 40";
+        break;
+        case 41:
+        num.innerText = "Loop 41";
+        break;
+        case 42:
+        num.innerText = "Loop 42";
+        break;
+        case 43:
+        num.innerText = "Loop 43";
+        break;
+        case 44:
+        num.innerText = "Loop 44";
+        break;
+        case 45:
+        num.innerText = "Loop 45";
+        break;
+        case 46:
+        num.innerText = "Loop 46";
+        break;
+        case 47:
+        num.innerText = "Loop 47";
+        break;
+        case 48:
+        num.innerText = "Loop 48";
+        break;
+        case 49:
+        num.innerText = "Loop 49";
+        break;
+        case 50:
+        num.innerText = "Loop 50";
+        break;
+        case 51:
+        num.innerText = "Loop 51";
+        break;
+        case 52:
+        num.innerText = "Loop 52";
+        break;
+        case 53:
+        num.innerText = "Loop 53";
+        break;
+        case 54:
+        num.innerText = "Loop 54";
+        break;
+        case 55:
+        num.innerText = "Loop 55";
+        break;
+        case 56:
+        num.innerText = "Loop 56";
+        break;
+        case 57:
+        num.innerText = "Loop 57";
+        break;
+        case 58:
+        num.innerText = "Loop 58";
+        break;
+        case 59:
+        num.innerText = "Loop 59";
+        break;
+        case 60:
+        num.innerText = "Loop 60";
+        break;
+        case 61:
+        num.innerText = "Loop 61";
+        break;
+        case 62:
+        num.innerText = "Loop 62";
+        break;
+        case 63:
+        num.innerText = "Loop 63";
+        break;
+        case 64:
+        num.innerText = "Loop 64";
+        break;
+        case 65:
+        num.innerText = "Loop 65";
+        break;
+        case 66:
+        num.innerText = "Loop 66";
+        break;
+        case 67:
+        num.innerText = "Loop 67";
+        break;
 
         num.innerText = "Default";
     }
